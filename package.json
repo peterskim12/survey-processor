@@ -1,0 +1,23 @@
+{
+  "name": "survey-exporter-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@commander-js/extra-typings": "^10.0.3",
+    "@types/figlet": "^1.5.6",
+    "@types/node": "^20.2.1",
+    "commander": "^10.0.1",
+    "csv-parser": "^3.0.0",
+    "figlet": "^1.6.0",
+    "ora": "^6.3.1",
+    "typescript": "^5.0.4"
+  }
+}
